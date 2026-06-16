@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #E4DFB5;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ar.todolist.Controllers.AddItemFormController">
+   <children>
+      <JFXTextField fx:id="addItemFormTaskTextField" layoutX="231.0" layoutY="115.0" prefHeight="56.0" prefWidth="238.0" promptText="Task" unFocusColor="#80388c">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="addItemFormDescriptionTextField" layoutX="231.0" layoutY="200.0" prefHeight="56.0" prefWidth="238.0" promptText="Description" unFocusColor="#a055ac">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton fx:id="addItemFormSaveTaskButton" layoutX="295.0" layoutY="310.0" prefHeight="47.0" prefWidth="109.0" style="-fx-background-color: #28396C;" text="Save Task" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </JFXButton>
+      <AnchorPane layoutY="-2.0" prefHeight="97.0" prefWidth="700.0" style="-fx-background-color: #9AB17A;">
+         <children>
+            <Label alignment="CENTER" layoutX="315.0" layoutY="31.0" prefHeight="34.0" prefWidth="70.0" text="TO DO" textFill="#e4dfb5">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label fx:id="addItemFormAlertLabel" alignment="CENTER" layoutX="519.0" layoutY="292.0" prefHeight="34.0" prefWidth="174.0" text="Task has been added!" textFill="#28396c" visible="false">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="addItemFormMyToDosButton" layoutX="541.0" layoutY="340.0" prefHeight="34.0" prefWidth="133.0" style="-fx-background-color: #28396C;" text="My ToDos" textFill="WHITE" visible="false">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #E4DFB5;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ar.todolist.Controllers.SignUpController">
+   <children>
+      <AnchorPane prefHeight="65.0" prefWidth="700.0" style="-fx-background-color: #9AB17A;">
+         <children>
+            <Label alignment="CENTER" layoutX="316.0" layoutY="16.0" prefHeight="33.0" prefWidth="67.0" text="To Do" textFill="#e4dfb5">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <JFXTextField fx:id="signUpFirstnameTextField" layoutX="176.0" layoutY="73.0" prefHeight="33.0" prefWidth="347.0" promptText="First Name" />
+      <JFXTextField fx:id="signUpLastnameTextField" layoutX="176.0" layoutY="117.0" prefHeight="33.0" prefWidth="347.0" promptText="Last Name" />
+      <JFXTextField fx:id="signUpUsernameTextField" layoutX="176.0" layoutY="166.0" prefHeight="33.0" prefWidth="347.0" promptText="Username" />
+      <JFXTextField fx:id="signUpLocationTextField" layoutX="176.0" layoutY="290.0" prefHeight="33.0" prefWidth="347.0" promptText="Location" />
+      <JFXPasswordField fx:id="signUpPasswordPasswordField" layoutX="176.0" layoutY="213.0" prefHeight="33.0" prefWidth="347.0" promptText="Password" />
+      <JFXCheckBox fx:id="signUpMaleCheckbox" layoutX="272.0" layoutY="264.0" prefHeight="18.0" prefWidth="63.0" selected="true" text="Male" />
+      <JFXCheckBox fx:id="signUpFemaleCheckbox" layoutX="376.0" layoutY="264.0" text="Female" />
+      <JFXButton fx:id="SignUpSignUpButton" layoutX="176.0" layoutY="344.0" prefHeight="33.0" prefWidth="347.0" style="-fx-background-color: #9AB17A;" text="Sign Up" textFill="#fbe8ce">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
