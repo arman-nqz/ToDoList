@@ -2,6 +2,9 @@
 
 A desktop To-Do List application built with JavaFX. The app includes user authentication and connects to a MySQL database to create, read, update, and delete users' tasks.
 
+<img width="1920" height="1080" alt="Untitled" src="https://github.com/user-attachments/assets/23dd2330-91a1-4cbd-a244-2c7c03deab16" />
+
+
 ## Features
 
 - User sign up with first name, last name, username, password, location, and gender
